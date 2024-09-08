@@ -1,0 +1,55 @@
+body{
+    color: white; /*Cor da fonte */
+    background-color: black;/*Coloração de fundo*/
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+ul{
+   display: flex;
+   justify-content: space-between; /*configuraçaõ para deixar a barra de navegação uma do lado da outra  */
+   list-style-type: none;
+   align-items: center; /*Barra centralizada  */
+   padding: 16px; /*Distanciamento  */
+}
+
+h1{
+    color: rgb(227, 14, 74);
+    text-align: center;
+
+}
+
+h2{
+    color: white;
+    text-align: center;
+}
+
+h3{
+    color: white;
+    font-size: arial;
+}
+
+
+
+
+footer img {
+    width: 40px;
+    height: 40px ;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+}
+
+footer a {
+    margin: 20px;
+    text-align: center;
+}
+
+footer p {
+    margin: 20px;
+}
+
+.center{
+    text-align: center;
+}
